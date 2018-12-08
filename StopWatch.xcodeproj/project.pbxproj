@@ -14,6 +14,7 @@
 		B0684DA921B6DAB300750DAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0684DA721B6DAB300750DAC /* LaunchScreen.storyboard */; };
 		B0684DB421B6DAB300750DAC /* StopWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0684DB321B6DAB300750DAC /* StopWatchTests.swift */; };
 		B0684DBF21B6DAB300750DAC /* StopWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0684DBE21B6DAB300750DAC /* StopWatchUITests.swift */; };
+		B099BB9D21BC1E5200F2CAC6 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B099BB9C21BC1E5100F2CAC6 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B0684DBA21B6DAB300750DAC /* StopWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0684DBE21B6DAB300750DAC /* StopWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchUITests.swift; sourceTree = "<group>"; };
 		B0684DC021B6DAB300750DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B099BB9C21BC1E5100F2CAC6 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B0684DA521B6DAB300750DAC /* Assets.xcassets */,
 				B0684DA721B6DAB300750DAC /* LaunchScreen.storyboard */,
 				B0684DAA21B6DAB300750DAC /* Info.plist */,
+				B099BB9C21BC1E5100F2CAC6 /* RoundedButton.swift */,
 			);
 			path = StopWatch;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0684DA121B6DAB100750DAC /* ViewController.swift in Sources */,
+				B099BB9D21BC1E5200F2CAC6 /* RoundedButton.swift in Sources */,
 				B0684D9F21B6DAB100750DAC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
